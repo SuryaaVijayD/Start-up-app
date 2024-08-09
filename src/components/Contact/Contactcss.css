@@ -1,0 +1,20 @@
+.dancing-style {
+  font-family: "Dancing Script", cursive;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+.large-web-text-contact1 {
+  font-size: 200px;
+  top: 0%;
+  left: 10%;
+  transform: rotate(33deg);
+}
+.large-web-text-contact2 {
+  font-size: 200px;
+  bottom: 50%;
+  right: 10%;
+  transform: rotate(-33deg);
+}
