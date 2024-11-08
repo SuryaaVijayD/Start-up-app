@@ -94,7 +94,7 @@ const Service = () => {
       </div>
       <div>
         {MobileCard.map((card) => (
-          <div key={card.id} className='mb-8 mx-6 p-4 rounded-md shadow-lg md:hidden'>
+          <div key={card.id} className='mb-8 mx-6 p-4 rounded-md shadow-lg md:hidden' data-aos="fade-up">
             <div className='flex items-center justify-center'>
               <div className='avatar'></div>
               <div className='ml-4'>
