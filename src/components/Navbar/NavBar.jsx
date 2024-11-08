@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { CiMenuFries } from 'react-icons/ci';
+import { AiFillThunderbolt } from "react-icons/ai";
 import AOS from "aos"
 import 'aos/dist/aos.css'
 
@@ -22,7 +23,7 @@ const NavBar = () => {
       <nav id='WebView' className='hidden md:flex md:flex-row md:justify-between'>
         <div className='self-center'>
           <h2 className='font-base text-xl cursor-pointer'>
-            <a href="#Home">LOGO</a>
+            <a href="#Home">AI<span><AiFillThunderbolt /></span>NTEL</a>
           </h2>
         </div>
         <div className='self-center'>
