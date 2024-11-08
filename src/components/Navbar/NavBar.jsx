@@ -23,7 +23,7 @@ const NavBar = () => {
       <nav id='WebView' className='hidden md:flex md:flex-row md:justify-between'>
         <div className='self-center'>
           <h2 className='font-base text-xl cursor-pointer'>
-            <a href="#Home">AI<span><AiFillThunderbolt /></span>NTEL</a>
+            <a href="#Home" className='flex'>AI<span><AiFillThunderbolt /></span>NTEL</a>
           </h2>
         </div>
         <div className='self-center'>
