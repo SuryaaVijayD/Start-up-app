@@ -1,6 +1,7 @@
 .dancing-style {
-  font-family: "Dancing Script", cursive;
+  
 }
+
 
 .text-shadow {
   text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
@@ -18,3 +19,30 @@
   right: 10%;
   transform: rotate(-33deg);
 }
+
+.dancing-style {
+  animation: dance 9s infinite alternate ease-in-out;
+  animation-delay: 7s;
+  font-family: "Dancing Script", cursive;
+}
+
+
+
+@keyframes dance {
+  0% {
+      transform: translate(0, 0);
+  }
+  25% {
+      transform: translate(10px, -10px) rotate(20deg);
+  }
+  50% {
+      transform: translate(-10px, 10px) rotate(-10deg);
+  }
+  75% {
+      transform: translate(15px, 15px) rotate(5deg);
+  }
+  100% {
+      transform: translate(-15px, -15px) rotate(-5deg);
+  }
+}
+
