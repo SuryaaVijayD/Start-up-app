@@ -52,7 +52,7 @@ const NavBar = () => {
       <nav id="MobileView" className='md:hidden'>
         <div className='px-8 flex justify-between items-center'>
           <div>
-            <h2 className='font-normal text-xl cursor-pointer'>LOGO</h2>
+            <h2 className='font-normal text-xl cursor-pointer'><a href="#Home" className='flex'>AI<span className='text-yellow-300'><AiFillThunderbolt /></span>NTEL</a></h2>
           </div>
           <div>
             <CiMenuFries className='text-2xl cursor-pointer' onClick={handleClick} />
