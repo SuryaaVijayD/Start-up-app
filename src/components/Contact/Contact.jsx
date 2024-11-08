@@ -18,7 +18,8 @@ const Contact = () => {
         <div id='Contact' className='relative'>
             <div className='h-72 px-6 text-center mt-60 mb-20 flex justify-center items-center flex-col' data-aos="fade-up">
                 <h1 className='text-3xl font-semibold md:text-5xl mb-5'>To Have Conversation to Collaborate</h1>
-                <p className='text-md md:text-xl mb-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p className='text-md md:text-xl mb-5'>Ready to Embrace AI? Let’s Get Started!
+Discover how AI can drive innovation in your organization. Schedule a consultation with our AI experts and explore the endless possibilities that AI Ntel can offer.</p>
                 <button type='button' className='flex mt-2 px-7 text-xl py-3 text-white bg-black rounded-full'>Reach out</button>
             </div>
             <div className='flex md:justify-between md:flex-row flex-col mb-9 md:px-32 px-6'>
