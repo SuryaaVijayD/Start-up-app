@@ -1,32 +1,5 @@
-.revolution {
-  overflow-x: hidden;
-}
-
-.height-img {
-  height: 320px;
-}
-
-.dancing-style {
-  font-family: "Dancing Script", cursive;
-}
-
-.text-shadow {
-  text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
-}
-
-.large-web-text {
-  font-size: 200px;
-  width: 0px;
-  transform: rotate(33deg);
-  z-index: -1;
-  top: 10%;
-  left: -1%;
-}
-.large-web-text-2 {
-  font-size: 150px;
-  bottom: -12%;
-  z-index: -10;
-  right: 8%;
-  transform: rotate(-33deg);
-  position: absolute;
+.img {
+    height: 230px;
+    object-fit: cover;
+    display: block;
 }
