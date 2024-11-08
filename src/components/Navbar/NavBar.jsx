@@ -1,5 +1,7 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { CiMenuFries } from 'react-icons/ci';
+import AOS from "aos"
+import 'aos/dist/aos.css'
 
 const NavBar = () => {
   const [toggle, setToggle] = useState(false);
@@ -11,9 +13,12 @@ const NavBar = () => {
   const handleLinkClick = () => {
     setToggle(false);
   };
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
 
   return (
-    <div className='w-screen md:px-14 py-7 fixed z-50' style={{ backgroundColor: '#FCFCFC' }}>
+    <div className='w-screen md:px-14 py-7 fixed z-50' style={{ backgroundColor: '#FCFCFC' }} data-aos="fade-down">
       <nav id='WebView' className='hidden md:flex md:flex-row md:justify-between'>
         <div className='self-center'>
           <h2 className='font-base text-xl cursor-pointer'>
