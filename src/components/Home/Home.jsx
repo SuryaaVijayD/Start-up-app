@@ -13,12 +13,10 @@ const Home = () => {
   return (
     <div id='Home' className='flex flex-col justify-center px-4 md:px-20 containers relative' data-aos="fade-right" data-aos-delay="350">
       <div className='flex flex-col gap-5 w-full justify-center'>
-        <h3 className='hidden md:block mt-56'>Lorem Ipsun standard dummy text</h3>
-        <h1 className='md:text-6xl text-3xl font-medium md:w-3/4 leading-relaxed md:mt-0 mt-28'>Lorem Ipsun is simply dummy text of the printing and scrambled</h1>
+        <h3 className='hidden md:block mt-56'>Empower Your Business with Intelligent AI Solutions</h3>
+        <h1 className='md:text-6xl text-3xl font-medium md:w-3/4 leading-relaxed md:mt-0 mt-28'>Harness the power of Artificial Intelligence with AI Ntel</h1>
         <p className='md:w-3/4 leading-loose'>
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-          when an unknown printer took a galley of type and scrambled it to make a
-          type specimen book.
+          Our advanced AI software and solutions are designed to drive growth, optimize efficiency, and create innovative experiences. Transform your business today with cutting-edge AI solutions tailored to meet your unique needs.
         </p>
         <div className='mt-4'>
           <button type='button' className='flex px-5 text-lg rounded-full py-3 bg-black text-white'>Learn more <MdOutlineArrowOutward className='self-center ml-1' /></button>
