@@ -32,7 +32,7 @@ function About() {
         },
     ];
     return (
-        <div className='mx-4 lg:mx-24 my-24'>
+        <div id="About" className='mx-4 lg:mx-24 my-24'>
             <div className='flex gap-4 text-lg my-6' data-aos="fade-right">
                 <span className='text-2xl'>02</span>
                 <h3 className='h-8 w-40 bg-black text-white text-center rounded-md'>About</h3>
