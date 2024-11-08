@@ -65,7 +65,7 @@ function Register() {
     };
 
     return (
-        <div className='bg-[#F1EFE3] register w-full px-8 lg:px-24 py-14'>
+        <div id="ConnectUs" className='bg-[#F1EFE3] register w-full px-8 lg:px-24 py-14'>
             <div className='flex w-full justify-center py-11' data-aos="flip-right">
                 <button
                     className={isCommunityFormVisible ? "text-sm lg:text-lg bg-black text-white px-4 py-3 rounded-l-full" : "text-sm lg:text-lg border-2 border-black px-4 py-3 rounded-l-full"}
