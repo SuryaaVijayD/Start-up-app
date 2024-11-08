@@ -23,22 +23,22 @@ const NavBar = () => {
       <nav id='WebView' className='hidden md:flex md:flex-row md:justify-between'>
         <div className='self-center'>
           <h2 className='font-base text-xl cursor-pointer'>
-            <a href="#Home" className='flex'>AI<span className='text-yellow-300'><AiFillThunderbolt /></span>NTEL</a>
+            <a href="#" className='flex'>AI<span className='text-yellow-300'><AiFillThunderbolt /></span>NTEL</a>
           </h2>
         </div>
         <div className='self-center'>
           <ul className='flex'>
             <li className='mx-10 text-base font-light cursor-pointer px-5 py-2 hover:text-white hover:bg-black rounded-full transition duration-200'>
-              <a href="#Revolution">Revolution</a>
+              <a href="#">Home</a>
             </li>
             <li className='mx-10 text-base font-light cursor-pointer px-5 py-2 hover:text-white hover:bg-black rounded-full transition duration-200'>
-              <a href="#">How we work</a>
+              <a href="#About">How we work</a>
             </li>
             <li className='mx-10 text-base font-light cursor-pointer px-5 py-2 hover:text-white hover:bg-black rounded-full transition duration-200'>
               <a href="#Service">Service</a>
             </li>
             <li className='mx-10 text-base font-light cursor-pointer px-5 py-2 hover:text-white hover:bg-black rounded-full transition duration-200'>
-              <a href="#Contact">About us</a>
+              <a href="#ConnectUs">Connect us</a>
             </li>
           </ul>
         </div>
@@ -61,10 +61,10 @@ const NavBar = () => {
         {toggle && (
           <div className='px-8 mt-4 transition-transform transform ease-in-out duration-300'>
             <ul>
-              <li className='py-3 mt-3'><a href="#Revolution" onClick={handleLinkClick}>Revolution</a></li>
+              <li className='py-3 mt-3'><a href="#" onClick={handleLinkClick}>Home</a></li>
               <li className='py-3'><a href="#" onClick={handleLinkClick}>How we work</a></li>
               <li className='py-3'><a href="#Service" onClick={handleLinkClick}>Service</a></li>
-              <li className='py-3'><a href="#Contact" onClick={handleLinkClick}>About us</a></li>
+              <li className='py-3'><a href="#ConnectUs" onClick={handleLinkClick}>Connect us</a></li>
               <li className='py-3'><a href="#" onClick={handleLinkClick}>Contact</a></li>
             </ul>
           </div>
