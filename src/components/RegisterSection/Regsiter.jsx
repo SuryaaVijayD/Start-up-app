@@ -81,7 +81,7 @@ function Register() {
                 </button>
             </div>
 
-            <form onSubmit={sendEmail} className='flex flex-col justify-center lg:w-[50%] mx-auto'>
+            <form onSubmit={sendEmail} className='flex flex-col justify-center lg:w-[50%] mx-auto' data-aos='fade-up'> 
                 <h2 className='text-center text-2xl font-bold'>Enter the details</h2>
                 <div className='my-3'>
                     <p className='py-2 text-xl font-semibold'>Name:</p>
